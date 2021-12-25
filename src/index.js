@@ -15,7 +15,7 @@ function App() {
     })
   }, [])
 
-  return data.length > 0 ? <Table data={data} initialPage={0}/>: <CircularProgress size={14} />;
+  return data.length > 0 ? <Table data={data} initialPage={2}/>: <CircularProgress size={14} />;
 }
  
 ReactDOM.render(<App />, document.getElementById("root"));
